@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index),
     # url(r'^page/(\d+)', views.page),
+
     url(r'^page/(?P<page>\d+)/(?P<number>\d+)', views.page),
 ]
